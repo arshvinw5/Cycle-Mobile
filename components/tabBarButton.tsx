@@ -9,14 +9,14 @@ import Animated, {
 
 import { icon } from '~/constants/icon';
 
-type TabBarButtonProps = {
+interface TabBarButtonProps {
   onPress: Function;
   onLongPress: Function;
   isFocused: boolean;
   routeName: string;
   color: string;
   label: string;
-};
+}
 
 export default function TabBarButton({
   onPress,
